@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography";
 
 export function Volleyball() {
   return (
-    <Box component="main" sx={{ flexGrow: 1, p: 3, ml: 25 }}>
+    <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
       <Toolbar />
       <Typography>Volleyball</Typography>
     </Box>
