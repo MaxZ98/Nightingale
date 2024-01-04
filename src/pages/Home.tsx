@@ -2,9 +2,11 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
+//ml: 25
+
 export function Home() {
   return (
-    <Box component="main" sx={{ flexGrow: 1, p: 3, ml: 25 }}>
+    <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
       <Toolbar />
       <Typography paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
