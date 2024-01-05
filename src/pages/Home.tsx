@@ -1,12 +1,18 @@
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import { useDrawer } from "../context/DrawerContext";
 
 //ml: 25
 
 export function Home() {
+  const { open } = useDrawer();
+
   return (
-    <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+    <Box
+      component="main"
+      sx={open ? { flexGrow: 1, p: 3, ml: 25 } : { flexGrow: 1, p: 3, ml: 10 }}
+    >
       <Toolbar />
       <Typography paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
